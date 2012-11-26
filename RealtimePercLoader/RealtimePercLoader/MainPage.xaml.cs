@@ -27,7 +27,7 @@ namespace RealtimePercLoader
     {
         #region Variables
             private IOrtcClient client; // ORTC client
-            private string serverURL = "http://developers2.realtime.livehtml.net/server/2.1/"; // ORTC Server URL
+            private string serverURL = "http://ortc-developers.realtime.co/server/2.1"; // ORTC Server URL
             private string channel = "PercentageChannel"; // ORTC Channel
             private string appKey = "ENTER_YOUR_KEY_HERE"; // Your Realtime Application Key (get your free key at www.realtime.co)
             private string privateKey = "YOUR_PRIVATE_KEY"; // Your Realtime Private Key

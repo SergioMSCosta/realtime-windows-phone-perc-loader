@@ -62,7 +62,7 @@ function init() {
     var connectionJSON = {
         appkey: 'ENTER_YOUR_KEY_HERE', // Your Realtime Application Key (get your free key at www.realtime.co)
         authtoken: 'AUTHENTICATION_TOKEN', // Authorization token. Not necessary if you're using a free developer account. Can be whatever you want (a GUID, for example)
-        url: 'http://developers2.realtime.livehtml.net/server/2.1', // ORTC Server URL
+        url: 'http://ortc-developers.realtime.co/server/2.1', // ORTC Server URL
         channels: [{ name: 'PercentageChannel'}] // ORTC Channel(s)
     }
     xRTML.addEventListener('ready', function () {
